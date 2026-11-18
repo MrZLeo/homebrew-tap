@@ -1,8 +1,8 @@
 class Memix < Formula
   desc "Immutable local memory and context store CLI"
   homepage "https://github.com/MrZLeo/memix"
-  url "https://github.com/MrZLeo/memix/releases/download/v0.7.0/memix-cli-skill.tar.gz"
-  sha256 "d903f360443cf763be9e17c3c18602761cf791878db57597667c3e516a1b2422"
+  url "https://github.com/MrZLeo/memix/releases/download/v0.8.0/memix-cli-skill.tar.gz"
+  sha256 "0a7a372d3a7fdb4c24f41eab36ff4f7fb5fd5a3267bcfc282a8e86ad6acce1f7"
   license "BSD-3-Clause"
 
   on_macos do
@@ -10,8 +10,8 @@ class Memix < Formula
     depends_on macos: :tahoe
 
     resource "binary" do
-      url "https://github.com/MrZLeo/memix/releases/download/v0.7.0/memix-macos-arm64"
-      sha256 "bab3ef037ab2333c3a1eedf75095d6a23cf8a31b07516a438b68fa6c7b20043b"
+      url "https://github.com/MrZLeo/memix/releases/download/v0.8.0/memix-macos-arm64"
+      sha256 "5afeeef2078a0429afdcfbd424427563e59370b57767c551729e8747717e4a44"
     end
   end
 
@@ -19,13 +19,13 @@ class Memix < Formula
     depends_on arch: :x86_64
 
     resource "binary" do
-      url "https://github.com/MrZLeo/memix/releases/download/v0.7.0/memix-linux-x86_64"
-      sha256 "5a4796a257bcbd82c36b76b5639c9a6075d1a867e83ba5edf8a415f51b82b063"
+      url "https://github.com/MrZLeo/memix/releases/download/v0.8.0/memix-linux-x86_64"
+      sha256 "be3f7c810d392eda45d8a039e3362214368d1b32e63627ffeaf4fc169c46d049"
     end
   end
 
   resource "license" do
-    url "https://raw.githubusercontent.com/MrZLeo/memix/v0.7.0/LICENSE"
+    url "https://raw.githubusercontent.com/MrZLeo/memix/v0.8.0/LICENSE"
     sha256 "40a36802c862a18bc9f8d262f4a8af8e5f2ebc53820e8e68adc0158c3af67d0a"
   end
 
